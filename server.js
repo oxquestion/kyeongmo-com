@@ -2,7 +2,7 @@ require('dotenv').config(); // read .env files
 const express = require('express');
 const router = express.Router();
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 80;
 
 // Set public folder as root
 app.use(express.static('public'));
